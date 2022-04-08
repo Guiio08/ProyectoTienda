@@ -1,0 +1,63 @@
+:root{
+    --blanco:#ffffff;
+    --grisClaro: #e0e0e0;
+    --negro: #000;
+    --amarillo: #FFCE00;
+    --amarilloOscuro: rgb(233,287,2);
+
+    --fuentePrincipal: 'Roboto Mono', monospace;;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Globales*/
+
+body {
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--negro);
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--amarillo);
+    font-family: var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
