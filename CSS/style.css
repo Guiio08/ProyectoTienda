@@ -5,6 +5,7 @@
     --amarillo: #FFCE00;
     --amarilloOscuro: rgb(233,287,2);
     --grisMedio: #434B4D;
+    --morado: #800080;
 
     --fuentePrincipal: 'Roboto Mono', monospace;;
 }
@@ -20,7 +21,7 @@ html {
 /*Globales*/
 
 body {
-    background-color: var(--blanco);
+    background-color: var(--morado);
     font-size: 1.6rem;
     line-height: 1.5;
 }
